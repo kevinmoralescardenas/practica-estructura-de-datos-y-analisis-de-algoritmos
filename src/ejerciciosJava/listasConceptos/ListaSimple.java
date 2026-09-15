@@ -1,34 +1,31 @@
-package listasConceptos;
+package ejerciciosJava.listasConceptos;
 
 public class ListaSimple {
 
     Nodo cabeza;
+
     public ListaSimple() {
 
         cabeza = null;
-
     }
 
-    //insertar al inicio
 
+    /*INSERTAR AL INICIO*/
     public void insertarInicio(int dato) {
 
-
+        /*Insertar al inicio es O(1).*/
         Nodo nuevo = new Nodo(dato);
-
-
         nuevo.siguiente = cabeza;
-
-
         cabeza = nuevo;
+
     }
 
+    /*INSERTAR AL FINAL*/
     public void insertarFinal(int dato) {
 
         Nodo nuevo = new Nodo(dato);
 
         if (cabeza == null) {
-
             cabeza = nuevo;
         } else {
 
@@ -42,7 +39,10 @@ public class ListaSimple {
         }
 
     }
-// 100 1000 10000 1
+
+
+    /*RECORRER LA LISTA*/
+
     public void recorrer() {
 
         Nodo actual = cabeza;
@@ -59,8 +59,7 @@ public class ListaSimple {
 
     }
 
-    // 100 1000 10000 1
-    // buscando al 1
+    /*BUSCAR EN LA LISTA*/
     public boolean buscar(int valor) {
 
         Nodo actual = cabeza;
@@ -77,8 +76,7 @@ public class ListaSimple {
         return false;
     }
 
-    // 100 1000 10000 1
-    //eliminar 1000
+    /*ELIMINAR DE LA LISTA*/
     public void eliminar(int valor) {
 
         Nodo actual = cabeza;
@@ -102,5 +100,4 @@ public class ListaSimple {
         }
 
     }
-
 }

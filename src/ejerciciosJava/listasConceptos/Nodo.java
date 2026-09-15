@@ -1,4 +1,4 @@
-package listasConceptos;
+package ejerciciosJava.listasConceptos;
 
 public class Nodo {
 

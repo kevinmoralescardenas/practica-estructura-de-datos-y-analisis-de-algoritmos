@@ -1,4 +1,4 @@
-package eficiencia;
+package ejerciciosJava.eficiencia;
 
 public class E8ComparacionBigO {
     public static void main(String[] args) {

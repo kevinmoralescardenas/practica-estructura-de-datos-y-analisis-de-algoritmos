@@ -1,4 +1,4 @@
-package analisisAlgoritmos;
+package ejerciciosJava.analisisAlgoritmos;
 
 public class AlgoritmoLogaritmico {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package analisisAlgoritmos;
+package ejerciciosJava.analisisAlgoritmos;
 
 public class AlgoritmoCuadratico {
     public static void main(String[] args) {

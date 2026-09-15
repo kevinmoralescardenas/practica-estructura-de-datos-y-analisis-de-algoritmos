@@ -1,4 +1,4 @@
-package eficiencia;
+package ejerciciosJava.eficiencia;
 
 //n no afecta y siempre se ejecutan la misma cantidad de instrucciones
 

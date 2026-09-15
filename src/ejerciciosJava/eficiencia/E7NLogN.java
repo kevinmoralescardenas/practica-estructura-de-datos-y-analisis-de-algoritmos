@@ -1,4 +1,4 @@
-package eficiencia;
+package ejerciciosJava.eficiencia;
 
 import java.util.Scanner;
 
